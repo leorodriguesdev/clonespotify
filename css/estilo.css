@@ -7,6 +7,7 @@
 /*---------------------layout-----------------------*/
 html, body, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -78,6 +79,46 @@ nav.navbar-transparente {
     background-color: white;
     color: black;
 }
+/*---------conteudos---------*/
+.caixa {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#serviços {
+    background: white;
+
+}
+
+#recursos {
+    color: white;
+
+}
+
+#serviços h2,h3 {
+    color: #7221e4;
+}
+
+#recursos h2 {
+    color: white;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+.rotacionar {
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+
 /*---------tipografia---------*/
 
 h1 {
@@ -87,6 +128,17 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
 
 
 /* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
